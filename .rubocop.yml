@@ -1,0 +1,8 @@
+Style/Documentation:
+  Exclude:
+    - db/migrate/*.rb
+    - config/application.rb
+
+AllCops:
+  Exclude:
+    - bin/*
