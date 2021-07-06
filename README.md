@@ -1,21 +1,25 @@
 # Healios
 
-* Ruby version
+## Ruby version
 
 Built with 3.0.0
 
-* Node version
+## Node version
 
 Built with 16.4.1
 
-* System dependencies
+## System dependencies
 
-Postgresql
+* Postgresql (built with 13.2)
 
-* Setup
+## Setup
 
 Run `bin/setup`
 
-* Running application
+## Running application
 
 Run `bin/rails s` and navigate to [http://localhost:3000]()
+
+## Running tests
+
+Run `rspec`

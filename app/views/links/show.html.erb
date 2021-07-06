@@ -1,0 +1,13 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Long:</strong>
+  <%= @link.long %>
+</p>
+
+<p>
+  <strong>Short: <%= link_to @link.absolute, @link.absolute %></strong>
+</p>
+
+<%= link_to 'Edit', edit_link_path(@link) %> |
+<%= link_to 'Back', links_path %>
