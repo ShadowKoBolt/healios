@@ -23,3 +23,9 @@ Run `bin/rails s` and navigate to [http://localhost:3000]()
 ## Running tests
 
 Run `rspec`
+
+## Next steps
+
+* Fix pending specs
+* Add feature specs
+* Bootstrap for some simple css

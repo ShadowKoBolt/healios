@@ -35,8 +35,7 @@ RSpec.describe '/links', type: :request do
 
   describe 'GET /new' do
     it 'renders a successful response' do
-      get new_link_url
-      expect(response).to be_successful
+      expect(get(new_link_url)).to redirect_to(new_user_session_url)
     end
   end
 
